@@ -10,25 +10,27 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
+/* Título */
 h1{
     color: rgb(6, 6, 75);
     font-size: clamp(2rem, 6vw, 4.5rem);
     text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-top: 30px;
 }
 
+/* Menú */
 .menu{
     width: 90%;
     max-width: 400px;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
+/* Botones */
 .opcion{
     width: 100%;
     background: transparent;
@@ -48,14 +50,21 @@ h1{
     transform: translateX(10px);
 }
 
-@media (max-width: 600px){
-    h1{
-        font-size: 2.2rem;
-        margin-top: 5vh;
+/* Celulares y tablets */
+@media (max-width: 768px){
+
+    .menu{
+        position: static;
+        transform: none;
+        margin: 40px auto;
     }
 
     .opcion{
-        padding: 12px;
-        font-size: 1rem;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        margin-top: 20px;
     }
 }
