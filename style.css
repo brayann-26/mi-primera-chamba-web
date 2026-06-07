@@ -1,0 +1,49 @@
+h1{
+    color:rgb(6, 6, 75);
+    font-size: 70px;
+    width:10px;
+    height: 50px;
+    border:0cap solid rgba(27, 3, 3, 0.795);
+    padding:150px;
+    margin:140px;
+
+
+}
+button{
+    background: linear-gradient(45deg,#00c6ff, #0072ff);
+
+}
+body{
+     background-image: url(ChatGPT\ Image\ 6\ jun\ 2026\,\ 19_01_15.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+body{
+    background-image:
+
+    url("ChatGPT\ Image\ 6\ jun\ 2026\,\ 19_01_15.png")
+}
+.menu{
+    width: 350px;
+    margin: 50px;
+}
+
+.opcion{
+    width: 100%;
+    background: transparent;
+    color: gold;
+    border: 2px solid rgba(255,215,0,.5);
+    padding: 15px;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.opcion:hover{
+    background: rgba(255,215,0,.1);
+    box-shadow: 0 0 20px gold;
+    transform: translateX(10px);
+}
